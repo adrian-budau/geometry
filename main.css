@@ -1,0 +1,83 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 416px;
+    width: 100%;
+}
+
+.wrapper * {
+    width: 320px;
+    height: 399px;
+}
+
+#view {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.control {
+    height: 44px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.source {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    float: left;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    background: black;
+    border-radius: 11px;
+    z-index: 1000;
+}
+
+.circle-start {
+    background: red;
+}
+
+.slider {
+    height: 24px;
+    width: 232px;
+    float: left;
+}
+
+.slider-number {
+    width: 40px;
+    height: 24px;
+    text-align: center;
+}
+
+.first {
+    background: green;
+}
+
+.second {
+    background: purple;
+}
+
+.first.second {
+    background: blue;
+}
